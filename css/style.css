@@ -351,7 +351,7 @@ text-align:center;
 	line-height: 1.42857143;
 	min-width: 160px;
 	text-align: center;
-	border-radius: 0;
+	border-radius: 2;
 	text-transform: uppercase;
 	-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
@@ -361,12 +361,12 @@ text-align:center;
 }
 .btn-default {
 	color: #FFFFFF;
-	background: #0A94DB;
+	background:darkslategray;
 	border: 0;
 }
 .btn-default:hover {
 	color: #ffffff;
-	background-color: #0078B6;
+	background-color:black;
 	border: 0;
 }
 .media-left, .media > .pull-left {
@@ -439,16 +439,16 @@ text-align:center;
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus,
 .nav-pills > li > a:hover {
-	background-color: #0A94DB;
-	border-color: #0A94DB;
-	color: #ffffff;
+	background-color: black;
+	border-color:red;
+	color:white;
 }
 .nav-pills > li > a {
 	border-radius: 0;
-	padding: 8px 20px;
-	border: 1px solid #cacaca;
-	color: #666666;
-	font-size: 12px;
+	padding: 8px 30px;
+	border: 2px solid black;
+	color:black;
+	font-size: 14px;
 	text-transform: uppercase;
 	font-weight: 300;
 }
@@ -456,7 +456,7 @@ text-align:center;
 /* Forms
 ---------------------------------- */
 .form-control {
-	height: 45px;
+	height: 50px;
 	-webkit-border-radius: 0px;
 	-moz-border-radius: 0px;
 	border-radius: 0px;
@@ -481,7 +481,7 @@ padding: 10px 0;
 	border-radius: 0px;
 }
 .modal-header {
-	background-color: #626262;
+	background-color:black;
 	color: #ffffff;
 }
 .modal-header h4 {
@@ -523,15 +523,21 @@ padding: 10px 0;
 }
 .main-navigation .navbar-default .navbar-nav > li > a {
 	padding: 10px 20px;
-	color:white;  font-weight: 800;  font-size: 14px;
+	color:white;  font-weight: 400;  font-size: 15px;
 }
 .main-navigation .navbar-default .navbar-nav > li.active > a {
-	background-color: transparent;
-	color: #356DE8;
+	transition: 0.2s;
+	color:black;
+	font-size: 16px;
+	text-decoration: none;
+	padding: 1 10px;
+	margin: 1 10px;
 }
 .main-navigation .navbar-default .navbar-nav > li > a:hover,
 .main-navigation .navbar-default .navbar-nav > li.active > a:hover {
-	color: #306AE8;
+	background-color:black;
+  color:white;
+  padding: 15px 10px;
 }
 
 /* carousel */
